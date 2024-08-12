@@ -1,0 +1,1459 @@
+/*各个页面相同的样式表：头，尾部*/
+
+/*登陆后主页*/
+
+
+
+/* 版心*/
+.wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1440px;
+    /*  background-color: aqua;*/
+}
+
+/*快捷导航*/
+/*.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+/*头部*/
+/*.header {
+    margin: 30px auto;
+    height: 70px;
+}*/
+
+.框框 {
+    width: 1440px;
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px -2px rgba(0, 0, 0, 0.16);
+}
+
+/*logo*/
+.logo h1 a {
+
+    position: absolute;
+    float: left;
+    left: 120px;
+    top: 30px;
+    width: 125px;
+    height: 40px;
+    background-image: url(/pplt-pc-client/uploads/logo.png);
+    /*background-color: pink;*/
+}
+
+
+.首页 h1 a {
+    position: absolute;
+    float: left;
+    left: 371px;
+    top: 38px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5ad3f2;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.我的帖子 h1 a {
+    float: left;
+    position: absolute;
+    left: 459px;
+    top: 38px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #595959;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.消息图标 h1 a {
+    margin: 0;
+    position: absolute;
+    float: left;
+    left: 1224px;
+    top: 30px;
+    width: 24px;
+    height: 24px;
+    background-image: url(/pplt-pc-client/uploads/sound-filled.png);
+}
+
+.消息 {
+    position: absolute;
+    left: 1220px;
+    top: 50px;
+    width: 32px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.消息卡位置空白 {
+    position: absolute;
+    width: 32px;
+    height: 60px;
+    /* background-color: #333333; */
+    opacity: 0.2;
+}
+
+.消息:hover .消息下拉 {
+    display: block;
+}
+
+.消息下拉 {
+    position: absolute;
+    width: 352px;
+    height: 215px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+    top: 30px;
+    left: -159px;
+    border-radius: 8px;
+    opacity: 0.85;
+    display: none;
+    z-index: 100;
+}
+
+.消息1 {
+    position: absolute;
+    top: 23px;
+    left: 16px;
+    display: block;
+    width: 320px;
+    height: 44px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 14px;
+    color: #13C2C2;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    z-index: 100;
+}
+
+.主页消息分割线 {
+    position: absolute;
+    top: 60px;
+    width: 320px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+}
+
+.消息2 {
+    position: absolute;
+    top: 99px;
+    left: 16px;
+    display: block;
+    width: 320px;
+    height: 44px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 14px;
+    color: #13C2C2;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.主页查看全部消息 a {
+    position: absolute;
+    left: 232px;
+    top: 175px;
+    width: 96px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8491a5;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.头像 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 34px;
+    left: 1288px;
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+    background-size: cover;
+    display: block;
+    border-radius: 90%;
+    cursor: pointer;
+    background-color: #333333;
+}
+
+.头像:hover .头像下拉 {
+    display: block;
+}
+
+.头像下拉 {
+    position: absolute;
+    width: 112px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+    top: 50px;
+    left: -38px;
+    border-radius: 8px;
+    opacity: 0.85;
+    display: none;
+    z-index: 100;
+}
+
+.头像卡位置空白 {
+    position: absolute;
+    width: 32px;
+    height: 60px;
+    /* background-color: #333333; */
+    opacity: 0.2;
+}
+
+.主页进入我的主页 {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: block;
+    width: 56px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal
+}
+
+.主页退出 {
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    display: block;
+    width: 56px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal
+}
+
+
+.banner {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1440px;
+    background-image: url(/pplt-pc-client/uploads/banner.png);
+    height: 360px;
+    top: 88px;
+    z-index: -1;
+}
+
+/*搜索*/
+.search {
+    position: absolute;
+    float: left;
+    /* background-color: pink;*/
+    width: 800px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    left: 320px;
+    top: 172px;
+}
+
+.search input {
+    position: absolute;
+    left: 24px;
+    top: 16px;
+    width: 674px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(153, 153, 153, 0.88);
+    text-align: left;
+    font-style: normal;
+}
+
+.click button {
+    position: absolute;
+    left: 994px;
+    top: 172px;
+    width: 126px;
+    height: 56px;
+    background: #5AD3F2;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+/*右上角个人*/
+.leftup {
+    position: absolute;
+    width: 293px;
+    height: 310px;
+    /* background-color: pink;*/
+    top: 464px;
+    left: 1026px;
+    border: 1px solid #e7e7e7;
+}
+
+/*右上中间的线*/
+/*.ysxian {
+    position: absolute;
+    background-color: pink;
+    width: 319px;
+    height: 1px;
+    top: 100px;
+}*/
+
+/*右上的上上字*/
+/*.upupzi {
+    position: absolute;
+    font-size: 36px;
+    left: 20px;
+    top: 10px;
+}
+
+/*右上上下字*/
+/*.updownzi {
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    color: #6c6c6c;
+    left: 20px;
+    bottom: 10px;
+}
+
+/*右上下上字*/
+/*.downupzi {
+    position: absolute;
+    font-size: 18;
+    left: 20px;
+    top: 10px;
+}
+
+/*右上下下按钮*/
+/*.downdown button {
+    border-style: none;
+    width: 146px;
+    height: 66px;
+    position: absolute;
+    font-size: 20px;
+    bottom: 0px;
+    left: 0px;
+    color: #ffffff;
+    background-color: #A4ADB3;
+    cursor: pointer;
+}
+
+/*右上下右头像*/
+/*.downright {
+    border-radius: 50%;
+    border: 0px solid #bbbbbb;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    bottom: 25px;
+    font-size: 20px;
+}
+
+/*插入右上角图片*/
+/*.downright h1 {
+    width: 100px;
+    height: 100px;
+}
+
+.downright h1 a {
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #bbbbbb;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../uploads/山里灵活1.avif);
+    background-size: cover;
+    cursor: default;
+}
+
+/*如未注册，点击注册*/
+/*.djzc {
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-size: 16px;
+}
+
+.djzc h1 {
+    position: absolute;
+    font-size: 16px;
+    top: 0px;
+    left: 115px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/*登录按钮*/
+.xzdl button {
+    margin: auto;
+    display: block;
+    background-color: pink;
+    position: relative;
+    top: 15px;
+    width: 142px;
+    height: 61px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*主页右下角*/
+.rightdown {
+    position: absolute;
+    width: 319px;
+    height: 741px;
+    /*background-color: pink;*/
+    top: 339px;
+    right: 110px;
+    border: 1px solid#bbbbbb;
+}
+
+/*主页左下角*/
+.leftdown {
+    position: absolute;
+    width: 319px;
+    height: 741px;
+    left: 110px;
+    top: 339px;
+    /*background-color: pink;*/
+    border: 1px solid#bbbbbb
+}
+
+/*主页右下角按钮*/
+.yxan1 button {
+    position: absolute;
+    width: 188px;
+    height: 115px;
+    background-color: pink;
+    top: 85px;
+    left: 65.5px;
+    font-size: 20px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+}
+
+.yxan2 button {
+    position: absolute;
+    width: 188px;
+    height: 115px;
+    background-color: pink;
+    top: 287px;
+    left: 65.5px;
+    font-size: 20px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+}
+
+.yxan3 button {
+    position: absolute;
+    width: 188px;
+    height: 115px;
+    background-color: pink;
+    top: 488px;
+    left: 65.5px;
+    font-size: 20px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+
+}
+
+/*左下角消息*/
+.xiaoxi1 {
+    position: absolute;
+    width: 319px;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #bbbbbb;
+    font-size: 22px;
+}
+
+.xiaoxi1 button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 10px;
+    top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.txk1 {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #bbbbbb;
+    width: 50px;
+    height: 50px;
+    background-image: url("/pplt-pc-client/uploads/山里灵活1.avif");
+    background-size: cover;
+    font-size: 22px;
+}
+
+.xiaoxi2 {
+    position: absolute;
+    width: 319px;
+    height: 120px;
+    top: 155px;
+    left: 0px;
+    border: 1px solid #bbbbbb;
+    font-size: 22px;
+}
+
+.xiaoxi2 button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 10px;
+    top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.xiaoxi3 {
+    position: absolute;
+    width: 319px;
+    height: 120px;
+    top: 310px;
+    left: 0px;
+    border: 1px solid #bbbbbb;
+    font-size: 22px;
+}
+
+.xiaoxi3 button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 10px;
+    top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.xiaoxi4 {
+    position: absolute;
+    width: 319px;
+    height: 120px;
+    top: 465px;
+    left: 0px;
+    border: 1px solid #bbbbbb;
+    font-size: 22px;
+}
+
+.xiaoxi4 button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 10px;
+    top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.xiaoxi5 {
+    position: absolute;
+    width: 319px;
+    height: 120px;
+    top: 620px;
+    left: 0px;
+    border: 1px solid #bbbbbb;
+    font-size: 22px;
+}
+
+.xiaoxi5 button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 10px;
+    top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/*主页文本框*/
+.主页文本框 {
+    position: absolute;
+    top: 464px;
+    left: 119px;
+    width: 896px;
+    height: 436px;
+    border: 1px solid #333333
+}
+
+.第一框 {
+    position: absolute;
+    width: 856px;
+    height: 164px;
+    left: 20px;
+    top: 20px;
+}
+
+.发布人用户图片 {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px;
+    width: 33px;
+    height: 33px;
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+}
+
+.发布人用户名 {
+    position: absolute;
+    top: 4px;
+    left: 44px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+/*文本框标题*/
+.wbkbt1 {
+    position: absolute;
+    width: 856px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+    left: 0px;
+    top: 48px;
+}
+
+.jianjie1 {
+    position: absolute;
+    width: 856px;
+    height: 48px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    top: 84px;
+    overflow: hidden;
+}
+
+/* .tupian1 {
+    position: absolute;
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 130px;
+    left: 0px;
+    background-size: cover;
+    font-size: 20px;
+} */
+
+.mantime1 {
+    /*background-color: pink;*/
+    position: absolute;
+    top: 140px;
+    font-size: 16px;
+    color: #8491a5;
+    font-style: italic;
+}
+
+.主页文本分割线1 {
+    position: absolute;
+    width: 896px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+    top: 180px;
+    left: -20px;
+}
+
+.第二框 {
+    position: absolute;
+    width: 856px;
+    height: 164px;
+    left: 20px;
+    top: 216px;
+}
+
+.发布人用户图片2 {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px;
+    width: 33px;
+    height: 33px;
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+}
+
+.发布人用户名2 {
+    position: absolute;
+    top: 4px;
+    left: 44px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.wbkbt2 {
+    position: absolute;
+    width: 856px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+    left: 0px;
+    top: 48px;
+}
+
+.jianjie2 {
+    position: absolute;
+    width: 920px;
+    height: 85px;
+    /*background-color: aqua;*/
+    left: 0px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.tupian2 {
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 130px;
+    left: 0px;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.mantime2 {
+    /*background-color: pink;*/
+    position: absolute;
+    left: 0px;
+    top: 330px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.wbkbt3 {
+    position: absolute;
+    height: 36px;
+    left: 460px;
+    top: 1100px;
+    width: 920px;
+    /*background-color: pink;*/
+    text-align: left;
+    font-size: 32px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.jianjie3 {
+    position: absolute;
+    width: 920px;
+    height: 85px;
+    /*background-color: aqua;*/
+    left: 0px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.tupian3 {
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 130px;
+    left: 0px;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.mantime3 {
+    /*background-color: pink;*/
+    position: absolute;
+    left: 0px;
+    top: 330px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+/*注册*/
+.register {
+    position: relative;
+    width: 471px;
+    height: 510px;
+    background-color: white;
+    top: 255px;
+    margin: auto;
+}
+
+.register h1 {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 20px;
+    top: 148px;
+    left: 56px;
+}
+
+.register input {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+}
+
+.register h2 {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 20px;
+    top: 212px;
+    left: 56px;
+}
+
+.register h3 {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 20px;
+    top: 343px;
+    left: 56px;
+}
+
+.register h3 input {
+    width: 243.48px;
+}
+
+.register h4 {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 20px;
+    top: 276px;
+    left: 56px;
+}
+
+.register a {
+    position: absolute;
+    left: 56px;
+    top: 36px;
+    width: 140px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5ad3f2;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.验证码 {
+    position: absolute;
+    width: 112px;
+    height: 46px;
+    left: 303px;
+    top: 340px;
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+}
+
+.注册按钮 a {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.注册按钮 button {
+    width: 361px;
+    height: 40px;
+    left: 55px;
+    top: 422px;
+    position: absolute;
+    border: 0px;
+    background-color: #5ad3f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.用户注册 {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    top: 82px;
+    left: 204px;
+    height: 24px;
+    width: 72px;
+}
+
+.注册右上 {
+    position: absolute;
+    width: 527px;
+    height: 101px;
+    left: 1294px;
+    top: 0px;
+    font-size: 60px;
+}
+
+/*登录*/
+.用户登录 {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 82px;
+    left: 204px;
+    height: 24px;
+}
+
+/* .登录按钮 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.登录按钮 button {
+    width: 361px;
+    height: 40px;
+    left: 55px;
+    top: 422px;
+    position: absolute;
+    border: 0px;
+    background-color: #5ad3f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+} */
+
+
+
+.背景 {
+    background-image: url(/pplt-pc-client/uploads/背景\ .png);
+    height: 900px;
+}
+
+/*我的帖子*/
+
+.他人帖子头像 {
+    position: absolute;
+    left: 295px;
+    top: 200px;
+    width: 34px;
+    height: 32px;
+    border-radius: 90%;
+    background-image: url(/pplt-pc-client/uploads/默认头像.png);
+}
+
+.他人帖子发布人姓名 {
+    position: absolute;
+    left: 339px;
+    top: 204px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.他人帖子发布时间 {
+    position: absolute;
+    left: 469px;
+    top: 204px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(132, 145, 165, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.个人与内容分割线 {
+    position: absolute;
+    left: 295px;
+    top: 248px;
+    width: 849px;
+    height: 20px;
+    border: 1px dashed #f0f0f0;
+    background-image: url(/pplt-pc-client/uploads/分割线上.png);
+}
+
+.标题 {
+    position: absolute;
+    left: 296px;
+    top: 120px;
+    width: 856px;
+    height: 64px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+    text-align: center;
+}
+
+.内容 {
+    position: absolute;
+    left: 295px;
+    top: 284px;
+    width: 848px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+}
+
+
+
+.帖子图片1 {
+    float: left;
+    position: relative;
+    background-image: url(/pplt-pc-client/uploads/山里灵活1.avif);
+    width: 418px;
+    height: 240px;
+    background-size: cover;
+    left: 24px;
+    top: 30px;
+    border: 1px solid #13C2C2;
+}
+
+.帖子图片2 {
+    float: left;
+    position: relative;
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+    width: 418px;
+    height: 240px;
+    background-size: cover;
+    left: 12px;
+    top: 30px;
+    border: 1px solid #13C2C2;
+}
+
+.评论区 {
+    position: absolute;
+    top: 312px;
+    left: -24px;
+    border: 1px solid #f0f0f0;
+    width: 896px;
+    height: 376px;
+}
+
+.发布评论 input {
+    position: absolute;
+    left: 65px;
+    top: 27px;
+    width: 807px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+    z-index: 1;
+}
+
+.发布评论 button {
+    position: absolute;
+    right: 22px;
+    top: 27px;
+    border: 0px;
+    width: 88px;
+    height: 32px;
+    background: #5AD3F2;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.他人的评论 {
+    position: absolute;
+    top: 76px;
+    left: 65px;
+    width: 807px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #f0f0f0
+}
+
+.评论区中间线 {
+    position: absolute;
+    left: 66px;
+    top: 132px;
+    width: 807px;
+    height: 2px;
+    border: 1px solid #f0f0f0;
+}
+
+.X条评论 {
+    position: absolute;
+    left: 81px;
+    top: 92px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.评论区他人头像 {
+    position: absolute;
+    left: 89px;
+    top: 156px;
+    width: 34px;
+    height: 32px;
+    border-radius: 90%;
+    background-image: url(/pplt-pc-client/uploads/默认头像.png);
+}
+
+.评论区他人姓名 {
+    position: absolute;
+    left: 133px;
+    top: 160px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal
+}
+
+.评论区他人评论 {
+    position: absolute;
+    left: 133px;
+    top: 200px;
+    width: 715px;
+    height: 76px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.不同评论的线 {
+    position: relative;
+    top: 26px;
+    width: 807px;
+    height: 1px;
+    background-color: #f0f0f0;
+    left: -68px;
+}
+
+.左上帖子 h1 button {
+    position: absolute;
+    left: 127px;
+    top: 8px;
+    width: 106px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.左上帖子 h2 button {
+    position: absolute;
+    left: 275px;
+    top: 8px;
+    width: 106px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.发布文字 {
+    position: absolute;
+    height: 435px;
+    left: 110px;
+    top: 133px;
+    right: 440px;
+    font-size: 16px;
+    border: 1px solid#bbbbbb;
+}
+
+.文字区 {
+    position: relative;
+    left: 110px;
+    top: 85px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.图片区 {
+    position: absolute;
+    top: 600px;
+    left: 110px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.发布图片 {
+    position: absolute;
+    top: 650px;
+    left: 110px;
+    width: 443px;
+    height: 221px;
+    background-image: url(/pplt-pc-client/uploads/山里灵活1.avif);
+    background-size: contain;
+    border: 1px solid pink;
+}
+
+.发布导入图片 button {
+    position: absolute;
+    width: 112px;
+    height: 68px;
+    left: 149px;
+    top: 882px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.发布删除图片 button {
+    position: absolute;
+    left: 399px;
+    top: 882px;
+    width: 112px;
+    height: 68px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.发布保存 button {
+    position: absolute;
+    left: 824px;
+    top: 742px;
+    width: 219px;
+    height: 157px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.发布发布 button {
+    position: absolute;
+    left: 1219px;
+    top: 742px;
+    width: 219px;
+    height: 157px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.发布返回主页 button {
+    position: absolute;
+    right: 110px;
+    top: 500px;
+    width: 188px;
+    height: 115px;
+    color: black;
+    font-size: 28px;
+    background-color: #4095e5;
+    border: 0px;
+    cursor: pointer;
+}
+
+/*后面新加登录*/
+.login {
+    position: relative;
+    width: 471px;
+    height: 510px;
+    background-color: white;
+    top: 255px;
+    margin: auto;
+}
+
+.login h1 {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 20px;
+    top: 148px;
+    left: 56px;
+}
+
+.login input {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+}
+
+.login h2 {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 20px;
+    top: 212px;
+    left: 56px;
+}
+
+.login h3 {
+    position: absolute;
+    width: 359.24px;
+    height: 40px;
+    font-size: 20px;
+    top: 279px;
+    left: 56px;
+}
+
+.login h3 input {
+    width: 243.48px;
+}
+
+.login h5 {
+    position: absolute;
+    width: 112px;
+    height: 46px;
+    left: 303px;
+    top: 276px;
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+}
+
+.登录按钮 a {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.登录按钮 button {
+    width: 361px;
+    height: 40px;
+    left: 55px;
+    top: 358px;
+    position: absolute;
+    border: 0px;
+    background-color: #5ad3f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.登录页立即注册 a {
+    position: absolute;
+    top: 414px;
+    left: 355px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5ad3f2;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.我的帖子主页首页 h1 a {
+    position: absolute;
+    float: left;
+    left: 371px;
+    top: 38px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 16px;
+    color: #595959;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.我的帖子主页我的帖子 h1 a {
+    float: left;
+    position: absolute;
+    left: 459px;
+    top: 38px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5ad3f2;
+    text-decoration: underline;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.发布首页首页 h1 a {
+    position: absolute;
+    float: left;
+    left: 371px;
+    top: 38px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 16px;
+    color: #595959;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+}

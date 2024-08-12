@@ -1,0 +1,786 @@
+/*放index页面的样式表*/
+.主页登录 {
+    width: 28px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    position: absolute;
+    left: 18px;
+    top: 16px;
+}
+
+.主页登录账户 input {
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+    left: 17px;
+    top: 68px;
+}
+
+.主页登录密码 input {
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+    left: 17px;
+    top: 120px;
+}
+
+.主页登录验证码 input {
+    position: absolute;
+    width: 184px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+    left: 17px;
+    top: 172px;
+}
+
+.主页去注册 a {
+    position: absolute;
+    font-size: 14px;
+    left: 17px;
+    top: 220px;
+    font-weight: 400;
+    color: #5ad3f2;
+}
+
+.主页登录按钮 button {
+    left: 17px;
+    top: 262px;
+    width: 260px;
+    height: 32px;
+    position: absolute;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #5ad3f2;
+    color: white;
+    cursor: pointer;
+}
+
+/*登陆后主页*/
+
+.登录后leftup {
+    position: absolute;
+    left: 1026px;
+    top: 464px;
+    width: 293px;
+    height: 231px;
+    border: 1px solid #e7e7e7;
+}
+
+.主页PP论坛 {
+    width: 48px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    position: absolute;
+    left: 18px;
+    top: 16px;
+}
+
+.主页PP论坛简介 {
+    position: absolute;
+    width: 168px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    left: 17px;
+    top: 61px;
+}
+
+.主页用户名 {
+    position: absolute;
+    left: 17px;
+    top: 103px;
+    width: 142px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.主页状态 {
+    position: absolute;
+    left: 17px;
+    top: 141px;
+    width: 100px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.主页发布 button {
+    width: 260px;
+    height: 32px;
+    position: absolute;
+    left: 17px;
+    top: 183px;
+    background-color: white;
+    color: #5ad3f2;
+    border: 1px solid #5ad3f2;
+    cursor: pointer;
+}
+
+.主页发布 button:hover {
+    background-color: #666;
+}
+
+/*全部消息*/
+.全部消息leftup {
+    position: absolute;
+    left: 1026px;
+    top: 100px;
+    width: 293px;
+    height: 231px;
+    border: 1px solid #e7e7e7;
+    z-index: -5;
+    /* background-color: #333333; */
+}
+
+.全部消息消息框 {
+    position: absolute;
+    width: 896px;
+    height: 800px;
+    left: 119px;
+    top: 100px;
+    border: 1px dashed #666;
+    overflow: scroll;
+}
+
+.全部消息wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1440px;
+    z-index: -1;
+    /*  background-color: aqua;*/
+}
+
+#全部消息 {
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    width: 856px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.全部消息第一条线 {
+    position: absolute;
+    left: 0;
+    top: 72px;
+    width: 896px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+}
+
+.全部消息头像 {
+    position: absolute;
+    left: 20px;
+    top: 23px;
+    width: 34px;
+    height: 32px;
+    border-radius: 90%;
+    background-image: url(/pplt-pc-client/uploads/默认头像.png);
+}
+
+.全部消息名字内容 {
+    float: left;
+    position: absolute;
+    top: 27px;
+    left: 64px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.全部消息发布时间 {
+    float: left;
+    position: absolute;
+    top: 27px;
+    left: 295px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(132, 145, 165, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.全部消息标题 {
+    position: absolute;
+    top: 67px;
+    left: 64px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.全部消息简介 {
+    position: absolute;
+    top: 107px;
+    left: 64px;
+    width: 808px;
+    height: 77px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    overflow: hidden;
+}
+
+.消息下线 {
+    position: absolute;
+    top: 208px;
+    width: 896px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+}
+
+.我的帖子主页头像 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 90%;
+    background-image: url(/pplt-pc-client/uploads/默认头像.png);
+    width: 34px;
+    height: 32px;
+}
+
+.我的帖子主页名字 {
+    position: absolute;
+    left: 64px;
+    top: 24px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.我的帖子主页标题 {
+    position: absolute;
+    left: 20px;
+    top: 68px;
+    width: 856px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.我的帖子主页简介 {
+    position: absolute;
+    left: 20px;
+    top: 104px;
+    width: 856px;
+    height: 48px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    overflow: hidden;
+}
+
+.我的帖子主页时间 {
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(132, 145, 165, 0.88);
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.我的帖子主页分割线 {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 896px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+}
+
+.我的主页wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1440px;
+    z-index: -1;
+}
+
+.我的主页框框 {
+    position: absolute;
+    left: 119px;
+    top: 104px;
+    width: 1200px;
+    height: 796px;
+    border: 1px dashed black;
+}
+
+.我的主页头像 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 40px;
+    left: 40px;
+    background-image: url(/pplt-pc-client/uploads/默认头像.png);
+    background-size: cover;
+    z-index: 0;
+}
+
+.摄像头图片 {
+    position: absolute;
+    left: 100px;
+    top: 84px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 5;
+    background-image: url(/pplt-pc-client/uploads/camera-filled.png);
+}
+
+.修改我的头像 {
+    position: absolute;
+    left: 78px;
+    top: 132px;
+    width: 84px;
+    height: 24px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.我的主页名称 {
+    position: absolute;
+    left: 40px;
+    top: 233px;
+    width: 42px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal
+}
+
+.我的主页名称 input {
+    position: absolute;
+    left: 50px;
+    top: -5px;
+    width: 400px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+}
+
+.我的主页保存头像 button {
+    position: absolute;
+    left: 90px;
+    top: 276px;
+    width: 88px;
+    height: 32px;
+    background: #5AD3F2;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.我的主页取消头像 button {
+    position: absolute;
+    left: 186px;
+    top: 276px;
+    width: 88px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.我的主页分割线 {
+    position: absolute;
+    left: 40px;
+    top: 332px;
+    width: 1120px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+}
+
+.建议定期 {
+    position: absolute;
+    left: 40px;
+    top: 356px;
+    width: 132px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FAAD14;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.请输入当前密码 {
+    position: absolute;
+    left: 54px;
+    top: 438px;
+    width: 112px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.当前密码输入框 {
+    position: absolute;
+    left: 174px;
+    top: 433px;
+    width: 400px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+}
+
+.请输入新密码 {
+    position: absolute;
+    left: 68px;
+    top: 486px;
+    width: 98px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.请输入新密码框 {
+    position: absolute;
+    left: 174px;
+    top: 481px;
+    width: 400px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+}
+
+.请再次输入新密码 {
+    position: absolute;
+    left: 40px;
+    top: 539px;
+    width: 126px;
+    height: 22px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+}
+
+.请再次输入新密码框 {
+    position: absolute;
+    left: 174px;
+    top: 534px;
+    width: 400px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+}
+
+.保存密码按钮 button {
+    position: absolute;
+    left: 90px;
+    top: 582px;
+    width: 88px;
+    height: 32px;
+    background: #5AD3F2;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.取消密码按钮 button {
+    position: absolute;
+    left: 186px;
+    top: 582px;
+    width: 88px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.发布上框 {
+    position: absolute;
+    top: 88px;
+    width: 1440px;
+    height: 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px -2px rgba(0, 0, 0, 0.16);
+    border: 1px solid #DDDDDD;
+}
+
+.发布下框 {
+    position: absolute;
+    top: 816px;
+    width: 1440px;
+    height: 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px -2px rgba(0, 0, 0, 0.16);
+    border: 1px solid #DDDDDD;
+    z-index: -1;
+}
+
+.发布中框 {
+    position: absolute;
+    left: 271px;
+    top: 164px;
+    width: 896px;
+    height: 736px;
+    border: 1px dashed #DDDDDD;
+    z-index: 1;
+}
+
+.请输入标题 {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+
+}
+
+.请输入标题 input {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 848px;
+    height: 36px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 600;
+    font-size: 32px;
+    color: #999999;
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+}
+
+.发布第一线 {
+    position: absolute;
+    left: 24px;
+    top: 80px;
+    width: 848px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+}
+
+.请输入正文 textarea {
+    position: absolute;
+    left: 24px;
+    top: 104px;
+    width: 848px;
+    height: 360px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(153, 153, 153, 0.88);
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+    overflow: auto;
+}
+
+.发布第二线 {
+    position: absolute;
+    left: 24px;
+    top: 496px;
+    width: 848px;
+    height: 1px;
+    border: 1px solid #EEEEEE;
+}
+
+.封面 {
+    position: absolute;
+    left: 24px;
+    top: 520px;
+    width: 32px;
+    height: 32px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 0.88);
+    line-height: 32px;
+    text-align: left;
+    font-style: normal;
+}
+
+.发布上传照片 {
+    position: absolute;
+    left: 76px;
+    top: 520px;
+    width: 104px;
+    height: 104px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.发布照片1 {
+    position: absolute;
+    left: 204px;
+    top: 520px;
+    width: 104px;
+    height: 104px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-image: url(/pplt-pc-client/uploads/山里灵活.avif);
+    background-size: contain;
+}
+
+.发布发布 button {
+    position: absolute;
+    left: 784px;
+    top: 678px;
+    width: 88px;
+    height: 32px;
+    background: #5AD3F2;
+    border-radius: 6px;
+    border: 0px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal
+}
+
+.发布保存 button {
+    position: absolute;
+    left: 688px;
+    top: 678px;
+    width: 88px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal
+}
+
+.我的帖子修改帖子 button {
+    position: absolute;
+    left: 900px;
+    top: 204px;
+    width: 88px;
+    height: 32px;
+    background: #5AD3F2;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.我的帖子删除帖子 button {
+    position: absolute;
+    left: 1000px;
+    top: 204px;
+    width: 88px;
+    height: 32px;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
